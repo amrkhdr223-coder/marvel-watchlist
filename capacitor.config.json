@@ -1,0 +1,10 @@
+{
+  "appId": "com.marvelwatchlist.app",
+  "appName": "Marvel Watchlist",
+  "webDir": "www",
+  "backgroundColor": "#0A0D14",
+  "android": { "backgroundColor": "#0A0D14", "allowMixedContent": false },
+  "plugins": {
+    "CapacitorHttp": { "enabled": true }
+  }
+}

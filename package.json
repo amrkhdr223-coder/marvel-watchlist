@@ -1,0 +1,17 @@
+{
+  "name": "marvel-watchlist-android",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "prepare:www": "node scripts/prepare-www.js",
+    "cap:add": "npm run prepare:www && npx cap add android",
+    "cap:sync": "npm run prepare:www && npx cap sync android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.0.0",
+    "@capacitor/core": "^7.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.0.0"
+  }
+}
